@@ -4,12 +4,12 @@ This project focuses on classifying different fish species using **Convolutional
 
 ## 📌 Project Overview
 - **Dataset:** Fish images belonging to multiple classes.
-- **Preprocessing:** Rescaling images, applying data augmentation (rotation, flipping, zoom-in).
+- **Preprocessing:** Rescaling images, applying data augmentation (Normalization, rotation, horizontal flipping, zoom-in).
 - **Model Training:**
   - **CNN from Scratch**
   - **Pre-trained Models:** VGG16, ResNet50, MobileNet, InceptionV3, EfficientNetB0
 - **Evaluation Metrics:** Accuracy, Precision, Recall, F1-score, Confusion Matrix.
-- **Best Model Selection:** The highest-performing model is saved in `.h5` or `.pkl` format for future use.
+- **Best Model Selection:** The highest-performing model is saved in `.keras` format for future use.
 
 ## 🚀 Setup and Installation
 1. **Clone the repository:**
@@ -27,15 +27,15 @@ This project focuses on classifying different fish species using **Convolutional
 ## 📊 Model Performance Comparison
 | Model | Accuracy | Precision | Recall | F1-Score |
 |--------|---------|-----------|--------|---------|
-| CNN from Scratch | XX% | XX% | XX% | XX% |
-| VGG16 | XX% | XX% | XX% | XX% |
-| ResNet50 | XX% | XX% | XX% | XX% |
-| MobileNet | XX% | XX% | XX% | XX% |
-| InceptionV3 | XX% | XX% | XX% | XX% |
-| EfficientNetB0 | XX% | XX% | XX% | XX% |
+| CNN from Scratch | 12.48% | 11.36% | 11.34% | 11.35% |
+| VGG16 | 09.61% | 08.60% | 08.63% | 08.599% |
+| ResNet50 | 11.04% | 26.81% | 10.26% | 07.26% |
+| MobileNet | 09.39% | 08.56% | 08.56% | 08.56% |
+| InceptionV3 | 12.04% | 10.88% | 10.91% | 10.89% |
+| EfficientNetB0 | 10.38% | 91.03% | 10.00% | 01.88% |
 
 ## 🔍 Results & Insights
-- Transfer learning models **outperformed** the CNN trained from scratch.
+- CNN trained from scratch **outperformed** Transfer learning models.
 - **Data augmentation** improved generalization and model robustness.
 - **Confusion matrices** provided insights into misclassifications and dataset challenges.
 
